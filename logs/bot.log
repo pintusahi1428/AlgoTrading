@@ -1,0 +1,403 @@
+2026-06-29 09:46:13,051 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:47:10,881 - INFO - Placing order attempt 1: {'variety': 'NORMAL', 'tradingsymbol': 'NIFTYTESTCE', 'symboltoken': '99999', 'transactiontype': 'BUY', 'exchange': 'NFO', 'ordertype': 'MARKET', 'producttype': 'INTRADAY', 'duration': 'DAY', 'quantity': '1'}
+2026-06-29 09:47:10,881 - INFO - Broker order response: 1001
+2026-06-29 09:47:10,881 - INFO - Placing order attempt 1: {'variety': 'STOPLOSS', 'tradingsymbol': 'NIFTYTESTCE', 'symboltoken': '99999', 'transactiontype': 'SELL', 'exchange': 'NFO', 'ordertype': 'STOPLOSS_LIMIT', 'producttype': 'INTRADAY', 'duration': 'DAY', 'price': '75.2', 'triggerprice': '76.2', 'quantity': '1'}
+2026-06-29 09:47:10,881 - INFO - Broker order response: 1002
+2026-06-29 09:47:10,881 - INFO - Broker-side SL placed for NIFTYTESTCE at trigger 76.2: 1002
+2026-06-29 09:47:10,886 - INFO - Broker-side SL trailed for NIFTYTESTCE to trigger 105.8: {'status': True, 'data': {'orderid': '1002'}}
+2026-06-29 09:47:10,888 - INFO - Broker-side SL trailed for NIFTYTESTCE to trigger 123.2: {'status': True, 'data': {'orderid': '1002'}}
+2026-06-29 09:47:10,888 - INFO - Broker-side SL trailed for NIFTYTESTCE to trigger 128.2: {'status': True, 'data': {'orderid': '1002'}}
+2026-06-29 09:47:10,890 - INFO - Broker-side SL cancelled for NIFTYTESTCE: 1002
+2026-06-29 09:47:10,892 - INFO - Placing order attempt 1: {'variety': 'NORMAL', 'tradingsymbol': 'NIFTYTESTCE', 'symboltoken': '99999', 'transactiontype': 'SELL', 'exchange': 'NFO', 'ordertype': 'MARKET', 'producttype': 'INTRADAY', 'duration': 'DAY', 'quantity': '1'}
+2026-06-29 09:47:10,892 - INFO - Broker order response: 1003
+2026-06-29 09:47:14,122 - WARNING - DAILY EQUITY SHIELD TRIGGERED: Net PnL 3700.00 reached locked floor 3750.00
+2026-06-29 09:47:14,122 - WARNING - DAILY EQUITY SHIELD TRIGGERED: Net PnL 3600.00 reached locked floor 3750.00
+2026-06-29 09:54:13,465 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:14,857 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:17,373 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:18,720 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:20,975 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:21,321 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:22,627 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:23,876 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:25,216 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:26,470 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:27,837 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:29,095 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:30,390 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:31,631 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:32,971 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:34,283 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:35,706 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:36,993 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:39,583 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:40,893 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:43,595 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:58,544 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:54:59,830 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:02,401 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:03,705 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:04,581 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:04,865 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:07,528 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:08,860 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:09,907 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:12,610 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:12,924 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:15,455 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:16,752 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:17,691 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:20,346 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:20,674 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:22,002 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:24,641 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:25,923 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:28,286 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:28,595 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:29,936 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:31,321 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:33,595 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:33,923 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:36,551 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:40,453 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:41,628 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:44,314 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:45,673 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:47,001 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:50,782 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:55:53,002 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:53,701 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:56,768 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:55:57,407 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:55:57,756 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:00,220 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:00,581 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:00,908 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:04,123 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:04,427 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:04,748 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:05,001 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:09,006 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:10,688 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:11,014 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:13,971 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:14,284 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:14,581 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:14,862 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:17,341 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:17,637 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:17,925 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:19,606 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:21,176 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:21,487 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:21,807 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:24,673 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:25,380 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:25,698 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:26,003 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:27,336 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:28,830 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:29,567 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:29,904 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:30,237 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:31,596 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:32,849 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:34,329 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:34,689 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:35,006 - WARNING - Entry blocked: one exchange lot exceeds the current risk budget or locked-profit headroom.
+2026-06-29 09:56:35,310 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:35,595 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:36,972 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:38,077 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:38,382 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:38,716 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:41,958 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:42,895 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:45,751 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:46,731 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:47,065 - WARNING - Entry blocked: one exchange lot exceeds the current risk budget or locked-profit headroom.
+2026-06-29 09:56:47,400 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:47,742 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:50,777 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:51,427 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:51,792 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:53,173 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:54,252 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:55,551 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:55,941 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:57,274 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:56:58,727 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:56:59,876 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:01,489 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:03,627 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:04,785 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:05,110 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:05,474 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:06,892 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:08,159 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:08,785 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:10,426 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:12,798 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:13,435 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:13,752 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:16,316 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:18,268 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:18,627 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:18,974 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:21,956 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:22,697 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:22,752 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:23,558 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:24,892 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:26,739 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:27,323 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:27,595 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:28,954 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:30,127 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:30,441 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:30,734 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:34,034 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:34,924 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:35,502 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:36,812 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:37,892 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:39,411 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:39,700 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:42,654 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:42,972 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:43,579 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:44,924 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:46,154 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:46,443 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:46,737 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:49,819 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:50,471 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:50,779 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:53,534 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:53,904 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:54,551 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:55,938 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:57,408 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:57:58,467 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:57:58,784 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:01,230 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:02,315 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:02,606 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:03,955 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:05,521 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:06,737 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:09,408 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:09,737 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:10,130 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:10,436 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:11,751 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:13,846 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:14,548 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:14,831 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:17,748 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:18,454 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:18,779 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:21,754 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:22,955 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:23,315 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:23,628 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:24,954 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:26,109 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:26,752 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:28,467 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:30,041 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:30,849 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:31,573 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:32,924 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:34,001 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:34,785 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:36,473 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:37,940 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:39,375 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:40,661 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:42,785 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:43,846 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:44,158 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:46,548 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:47,534 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:47,876 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:50,893 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:51,641 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:51,978 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:54,282 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:54,986 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:55,532 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:56,841 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:58:58,454 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:58:59,476 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:00,783 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:01,761 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:59:02,485 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:02,818 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:05,642 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:59:07,437 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:08,736 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:09,861 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:59:11,518 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:14,036 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:59:14,347 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:14,654 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:14,953 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:17,971 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:59:18,310 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:18,614 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:18,904 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:21,398 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:59:21,810 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:22,190 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:22,497 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:23,893 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:25,486 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:59:27,440 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:31,254 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 09:59:32,487 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 09:59:32,845 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:21,472 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:22,939 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:23,534 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:26,117 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:26,813 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:27,422 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:30,208 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:30,602 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:31,311 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:32,673 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:34,174 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:34,539 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:34,988 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:36,674 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:37,878 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:38,998 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:39,341 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:39,641 - WARNING - Entry blocked: one exchange lot exceeds the current risk budget or locked-profit headroom.
+2026-06-29 10:06:39,955 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:43,307 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:44,359 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:44,647 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:47,155 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:47,791 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:51,159 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:51,810 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:54,626 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:55,722 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:56,347 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:06:59,154 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:06:59,873 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:01,539 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:02,610 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:02,960 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:03,627 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:06,623 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:07,955 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:09,658 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:10,898 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:12,878 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:14,594 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:15,624 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:16,694 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:18,413 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:19,920 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:20,888 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:24,533 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:25,419 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:25,784 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:27,550 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:28,610 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:30,659 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:30,947 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:32,252 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:34,018 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:34,752 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:37,589 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:38,550 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:39,865 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:41,284 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:41,936 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:43,561 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:45,533 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:47,565 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:48,861 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:49,892 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:50,956 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:51,324 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:54,269 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:54,904 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:56,518 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:07:58,503 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:07:59,470 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:00,827 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:01,923 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:03,265 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:03,628 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:09,920 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:11,376 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:12,684 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:14,200 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:14,827 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:16,529 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:18,098 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:20,507 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:21,825 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:23,542 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:24,567 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:25,894 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:27,972 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:28,873 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:31,889 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:32,593 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:35,996 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:37,568 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:37,973 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:38,326 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:41,818 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:42,449 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:42,721 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:45,317 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:45,628 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:45,976 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:46,387 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:47,736 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:49,921 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:50,607 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:50,893 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:53,263 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:54,722 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:54,994 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:08:57,907 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:08:59,408 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:02,579 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:03,845 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:06,813 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:07,550 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:07,934 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:10,766 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:11,962 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:12,282 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:14,752 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:15,345 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:15,681 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:16,971 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:18,721 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:19,392 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:19,736 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:22,221 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:22,861 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:24,520 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:26,001 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:27,658 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:27,962 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:29,266 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:30,785 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:32,534 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:32,939 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:34,350 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:35,597 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:36,665 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:37,973 - ERROR - Broker day PnL read failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-06-29 10:09:39,678 - ERROR - Gift Nifty source failed: NSE IX quote is stale: 29-Jun-2026 09:14:58
+2026-06-29 10:09:40,628 - ERROR - Broker positions dashboard sync failed: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'

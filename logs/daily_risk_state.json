@@ -1,0 +1,11 @@
+{
+  "date": "2026-06-24",
+  "peak_pnl": 5000.0,
+  "profit_floor": 3750.0,
+  "halt": true,
+  "halt_reason": "Net PnL 3600.00 reached locked floor 3750.00",
+  "trades": 0,
+  "consecutive_losses": 0,
+  "last_closed_trade": {},
+  "reentries_today": 0
+}

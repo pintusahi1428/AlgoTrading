@@ -1,0 +1,57 @@
+MASTER SNIPER PROFIT SHIELD RELEASE - 2026-06-28
+================================================
+
+ACTIVE SAFETY DEFAULTS
+- Maximum entries per day: 6
+- Maximum simultaneous active trades: 1
+- Daily loss circuit breaker: INR 1,500
+- Consecutive-loss circuit breaker: 2
+- Fresh-entry cutoff: 14:45
+- Broker-reported day PnL is authoritative when available
+
+DAILY EQUITY LOCK
+- Peak below INR 2,000: no positive floor
+- Peak INR 2,000 to INR 4,999: 60 percent of peak is locked
+- Peak INR 5,000 and above: maximum planned giveback is INR 1,250
+- INR 5,000 peak -> INR 3,750 floor
+- INR 10,000 peak -> INR 8,750 floor
+- Floor breach exits bot positions and blocks entries for the rest of the day
+
+SIGNAL ENGINE
+- BUY and SELL are independently evaluated across up to 41 available checks
+- Minimum coverage, match percentage, direction lead and critical-conflict gates
+- CE and PE use the same symmetric scoring rules
+- Angel best-five option depth imbalance is included when available
+- One-second live LTP microstructure adds tick pressure, acceleration, trend and efficiency
+- Missing live data gets no score; it is not replaced by an invented market value
+
+RISK AND EXECUTION
+- Broker-side initial SL and trailing modify remain active
+- Exit reconciles pending broker SL before market square-off
+- Pyramiding is limited to A+ consensus and risk budget, maximum 2x
+- Quantity is limited by capital allocation and stop-loss risk budget
+- Trade journal records MFE, MAE, signal quality, exit reason and PnL
+- Daily risk and trade count survive VPS restart
+
+IMPORTANT LIMITS
+- This is not exchange-colocated HFT and does not reproduce any proprietary firm's secret logic.
+- Angel provides best-five depth, not hidden liquidity or exact queue position.
+- Dealer position is an estimate from public OI and Greeks, not actual dealer inventory.
+- No code can guarantee a locked rupee amount because gaps, slippage, API outages, rejected orders and exchange events can move the fill past the floor.
+- Historical futures candles cannot validate option PnL without historical option premiums, OI, IV, Greeks and depth.
+
+2026-06-29 MERGE UPDATE
+- Audited and merged old institutional ZIP into the Profit Shield base.
+- Added +30/+23 premium lock and continuous 12-point peak trail.
+- Added guarded same-direction strong-trend re-entry after a profitable trailing exit.
+- Added equal-weight CE/PE point reports and SHOW_SIGNAL_POINTS.bat.
+- Paused heavy institutional factor polling outside market hours.
+
+2026-06-29 ADVANCED SYSTEM UPDATE
+- Removed RSI, MACD, Supertrend and EMA Cross from calculation and scoring.
+- Added Trend Day, Range Day, Expiry Day and Gap Day regime classification.
+- Added bounded weekly walk-forward threshold optimization after 40 real trades.
+- Added automatic win/loss reason and factor-attribution analytics.
+- Added volatility, confidence, day-type and stability position-size scaling.
+- Added entry/exit slippage, latency, fill-quality and missed-trade monitoring.
+- CE/PE scoring remains symmetric with 41 equal one-point conditions.

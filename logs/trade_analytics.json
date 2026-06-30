@@ -1,0 +1,19 @@
+{
+  "sample_size": 1,
+  "status": "INSUFFICIENT_DATA",
+  "wins": 1,
+  "losses": 0,
+  "win_rate": 100.0,
+  "total_pnl": 28.0,
+  "expectancy": 28.0,
+  "profit_factor": 9.99,
+  "max_drawdown": 0.0,
+  "win_loss_reasons": {
+    "TRAILING_PROFIT_CAPTURE": {
+      "count": 1,
+      "pnl": 28.0
+    }
+  },
+  "factor_attribution": {},
+  "final_rating": "INSUFFICIENT_DATA"
+}

@@ -1,0 +1,51 @@
+MASTER SNIPER CE/PE SYMMETRIC CONDITION POINT MAP
+=================================================
+
+Every available condition below has equal weight: 1 point for CE BUY and 1 point for PE BUY.
+Unavailable live data gives 0 and is never replaced with a dummy market value.
+
+ 1. regime_tradeable          1 point
+ 2. regime_quality            1 point
+ 3. day_type_alignment        1 point
+ 4. regime_stability          1 point
+ 5. trend_direction           1 point
+ 6. iv_percentile             1 point
+ 7. india_vix                 1 point
+ 8. index_sync                1 point
+ 9. top_weighted              1 point
+10. top15_weighted            1 point
+11. banknifty_vwap            1 point
+12. banknifty_mtf             1 point
+13. momentum                  1 point
+14. smc_direction             1 point
+15. smc_quality_40            1 point
+16. smc_quality_70            1 point
+17. fvg                       1 point
+18. strong_sweep              1 point
+19. smc_volume                1 point
+20. nifty_mtf                 1 point
+21. oi_buildup                1 point
+22. coi_signal                1 point
+23. coi_imbalance             1 point
+24. greeks_bias               1 point
+25. dealer_position           1 point
+26. max_pain                  1 point
+27. option_order_book         1 point
+28. vwap_direction            1 point
+29. vwap_retest               1 point
+30. pcr_imbalance             1 point
+31. option_chain_noise        1 point
+32. gift_nifty                1 point
+33. advance_decline           1 point
+34. weighted_breadth          1 point
+35. total_oi_liquidity        1 point
+36. price_action              1 point
+37. volume_shock              1 point
+38. tick_pressure             1 point
+39. tick_acceleration         1 point
+40. micro_trend               1 point
+41. price_efficiency          1 point
+
+Removed by user request: RSI, MACD, Supertrend and EMA Cross.
+Signal also requires coverage, match percentage, direction lead, critical confirmations and
+limited critical conflicts. Raw score alone never forces an entry.

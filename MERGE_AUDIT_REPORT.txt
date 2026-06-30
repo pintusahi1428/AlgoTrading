@@ -1,0 +1,53 @@
+OLD + NEW ZIP MERGE AUDIT - 2026-06-29
+======================================
+
+OLD SOURCE
+pintu_INSTITUTIONAL_REAL_GREEKS_20260627_192320.zip
+
+NEW BASE
+AlgoTrading_PROFIT_SHIELD_43_FACTOR_20260628.zip
+
+AUDIT RESULT
+- Every top-level old file is present in the new base.
+- AST audit found no old Python function or class missing from the new base.
+- The new strategy contains all old scoring families and adds symmetric BUY/SELL scoring,
+  direction-lead checks, conflict vetoes, tick microstructure and option best-five depth.
+- Old runtime logs, __pycache__, stale state and duplicate archive folder were intentionally
+  not merged. Carrying those files could restore an old position or daily halt incorrectly.
+- Old loose settings (10 trades, two simultaneous trades, 45 percent consensus and INR 4,000
+  daily loss) were intentionally not restored because they weaken the new risk controls.
+- Old hardcoded BOS/CHOCH/FVG point thresholds were not restored because the new code uses
+  volatility-normalized thresholds.
+
+OLD LOGIC PRESENCE MAP
+- VWAP and BankNifty VWAP: strategy.py + bot.py
+- MTF Nifty and BankNifty: adaptive_engine.py + bot.py
+- RSI, MACD, EMA Cross and Supertrend were present in the merged base but were removed
+  from calculation and scoring on 2026-06-29 at the user's request.
+- OI, COI, COI imbalance, PCR and option-chain noise: data_fetcher.py + strategy.py
+- IV and IV percentile: data_fetcher.py + strategy.py
+- Gift Nifty, India VIX, A/D ratio and weighted breadth: data_fetcher.py + strategy.py
+- BOS, CHOCH, liquidity, order block, FVG and strong sweep: smart_money.py
+- Greeks, dealer estimate, max pain and Top-15 breadth: data_fetcher.py + strategy.py
+- ATR initial SL, target and trailing: trade_manager.py + reward_engine.py
+- Broker-side SL place/modify/cancel: trade_manager.py
+- Dynamic sizing, compounding and risk-budget sizing: trade_manager.py
+- Pyramiding: trade_manager.py
+- VPS recovery and position reconciliation: trade_manager.py
+- Daily PnL profit shield: trade_manager.py
+
+NEW REQUESTS ADDED IN THIS MERGE
+- At +30 premium points, SL locks entry +23 points.
+- Above +30, trailing SL follows the premium peak with a 12-point gap.
+- Profitable trailing exit can re-enter the same CE/PE direction only under fresh strong-trend
+  consensus and recovery confirmation.
+- CE and PE now use the same 41 available conditions, each worth exactly one point after the
+  four requested small indicators were removed and two day-regime checks were added.
+- logs\last_signal_points.json records every condition's observed value, status and point.
+- SHOW_SIGNAL_POINTS.bat displays the complete CE/PE point table.
+- Institutional option-chain/Greeks polling is paused while the market is closed.
+
+LIMITS
+- Re-entry is never guaranteed; it is blocked when confirmation is weak or risk gates are hit.
+- A 12-point requested trail cannot guarantee a 12-point fill during gaps or slippage.
+- Dealer position remains an OI/Greeks estimate, not proprietary dealer inventory.

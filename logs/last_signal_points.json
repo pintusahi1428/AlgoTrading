@@ -1,0 +1,513 @@
+{
+  "timestamp": "2026-06-29 10:09:39",
+  "signal": "HOLD",
+  "candidate": "SELL",
+  "required": 23,
+  "buy_score": 8,
+  "sell_score": 17,
+  "buy_available": 31,
+  "sell_available": 31,
+  "buy_conditions": [
+    {
+      "condition": "regime_tradeable",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "regime_quality",
+      "observed": "FAIL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "regime_stability",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "trend_direction",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "iv_percentile",
+      "observed": "FAIL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "india_vix",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "index_sync",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "top_weighted",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "top15_weighted",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "banknifty_vwap",
+      "observed": "BULLISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "banknifty_mtf",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "momentum",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "smc_quality_40",
+      "observed": "FAIL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "smc_quality_70",
+      "observed": "FAIL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "nifty_mtf",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "coi_signal",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "coi_imbalance",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "greeks_bias",
+      "observed": "NEUTRAL",
+      "critical": true,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "dealer_position",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "max_pain",
+      "observed": "NEUTRAL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "option_order_book",
+      "observed": "NEUTRAL",
+      "critical": true,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "vwap_direction",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "vwap_retest",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "pcr_imbalance",
+      "observed": "NEUTRAL",
+      "critical": true,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "option_chain_noise",
+      "observed": "NEUTRAL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "advance_decline",
+      "observed": "BULLISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "total_oi_liquidity",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "tick_pressure",
+      "observed": "NEUTRAL",
+      "critical": true,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "tick_acceleration",
+      "observed": "BULLISH",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "micro_trend",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "price_efficiency",
+      "observed": "NEUTRAL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    }
+  ],
+  "sell_conditions": [
+    {
+      "condition": "regime_tradeable",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "regime_quality",
+      "observed": "FAIL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "regime_stability",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "trend_direction",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "iv_percentile",
+      "observed": "FAIL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "india_vix",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "index_sync",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "top_weighted",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "top15_weighted",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "banknifty_vwap",
+      "observed": "BULLISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "banknifty_mtf",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "momentum",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "smc_quality_40",
+      "observed": "FAIL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "smc_quality_70",
+      "observed": "FAIL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "nifty_mtf",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "coi_signal",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "coi_imbalance",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "greeks_bias",
+      "observed": "NEUTRAL",
+      "critical": true,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "dealer_position",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "max_pain",
+      "observed": "NEUTRAL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "option_order_book",
+      "observed": "NEUTRAL",
+      "critical": true,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "vwap_direction",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "vwap_retest",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "pcr_imbalance",
+      "observed": "NEUTRAL",
+      "critical": true,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "option_chain_noise",
+      "observed": "NEUTRAL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "advance_decline",
+      "observed": "BULLISH",
+      "critical": true,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "total_oi_liquidity",
+      "observed": "PASS",
+      "critical": false,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "tick_pressure",
+      "observed": "NEUTRAL",
+      "critical": true,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "tick_acceleration",
+      "observed": "BULLISH",
+      "critical": false,
+      "status": "CONFLICT",
+      "earned_points": 0,
+      "max_points": 1
+    },
+    {
+      "condition": "micro_trend",
+      "observed": "BEARISH",
+      "critical": true,
+      "status": "MATCH",
+      "earned_points": 1,
+      "max_points": 1
+    },
+    {
+      "condition": "price_efficiency",
+      "observed": "NEUTRAL",
+      "critical": false,
+      "status": "NO_POINT",
+      "earned_points": 0,
+      "max_points": 1
+    }
+  ],
+  "missing_live_factors": [
+    "gift_nifty:not_configured"
+  ]
+}
